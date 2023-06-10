@@ -8,7 +8,7 @@ df = pd.read_csv(
 # Remove leading spaces from column names
 df.columns = df.columns.str.strip()
 
-CONTACT = "+989303501392"
+CONTACT = ""
 
 LOCAL = df["Local ID"].iloc[0]
 
